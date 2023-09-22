@@ -23,14 +23,19 @@ url = "https://www.twitter.com/0xallan"
 
 [[params.social]]
 key = 2
-name = "mastodon"
-url = "https://www.mastodon.com"
+name = "github"
+url = "https://www.github.com/AllanM007"
 rel = "me"  # You can also add rel to social link
 
 [[params.social]]
 key = 3
 name = "email"
 url = "mailto:mwaranguallan345@gmail.com"
+
+[[params.social]]
+key = 4
+name = "linkedin"
+url = "https://www.linkedin.com/in/allan-muiruri/"
 
 [menu]
   [[menu.header]]
