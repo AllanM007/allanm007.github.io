@@ -1,0 +1,41 @@
+baseURL = 'https://allanmoo7.github.io/'
+languageCode = 'en-us'
+theme = "hugo-theme-nightfall"
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "blog"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[params]
+author = "Allan Muiruri"
+user = "hello"
+hostname = "gohugo.io"
+
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/AllanM007"
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = "https://www.twitter.com/oxallan"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://www.linkedin.com"
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:mwaranguallan345@gmail.com"

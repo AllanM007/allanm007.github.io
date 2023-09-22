@@ -1,0 +1,41 @@
+[module]
+  [module.hugoVersion]
+    extended = true
+    theme = "nightfall"
+    min = "0.80.0"
+[params]
+author = "Allan Muiruri"
+user = "hello"
+hostname = "gohugo.io"
+footerHtml = 'CC-0, Built with <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme'
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/AllanM007"
+icon = "fa-brands fa-github"  # Add link to your icon font to `layouts/partials/custom-head.html`
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = "https://www.twitter.com/0xallan"
+
+[[params.social]]
+key = 2
+name = "mastodon"
+url = "https://www.mastodon.com"
+rel = "me"  # You can also add rel to social link
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:mwaranguallan345@gmail.com"
+
+[menu]
+  [[menu.header]]
+    name = "about"
+    weight = 0
+    url = "/about"
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
